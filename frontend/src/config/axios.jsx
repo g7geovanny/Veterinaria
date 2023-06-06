@@ -1,0 +1,12 @@
+//URLbase en Axios
+
+import axios from "axios";
+
+const clienteAxios = axios.create({
+    baseURL: `${import.meta.env.VITE_BACKEND_URL}/veterinarios`
+});
+
+export default clienteAxios;
+
+
+    
